@@ -1,0 +1,17 @@
+curl 'https://fedi.place/api/place' \
+  -H 'authority: fedi.place' \
+  -H 'accept: */*' \
+  -H 'accept-language: en-US,en;q=0.9' \
+  -H 'content-type: application/x-www-form-urlencoded; charset=UTF-8' \
+  -H 'cookie: <redacted>' \
+  -H 'origin: https://fedi.place' \
+  -H 'referer: https://fedi.place/' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-site: same-origin' \
+  -H 'sec-gpc: 1' \
+  -H 'user-agent: <redacted>' \
+  -H 'x-csrf-token: <redacted>' \
+  -H 'x-requested-with: XMLHttpRequest' \
+  --data-raw "x="$1"&y="$2"&hex=%23"$3"" \
+  --compressed

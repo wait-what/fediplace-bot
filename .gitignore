@@ -1,0 +1,13 @@
+# Node
+/node_modules/
+/yarn.lock
+
+# Configuration
+/place.sh
+/config.json
+
+# Images
+*.png
+*.jpg
+*.jpeg
+*.gif
